@@ -129,6 +129,23 @@ void LedPwm_RefreshAll(void)
     Bsp_SetLedPwm(eBSP_LED_3, ledPwm.led3Duty);
 }
 
+/******************************************************************************/
+/** @brief Recupera o valor atual de duty cycle de um LED específico.
+ * @param ledChannel: Canal do LED desejado.
+ * @retval Valor de 0 a 100% do duty cycle em memória.
+ ******************************************************************************/
+u8 LedPwm_GetLedDuty(bspLed_t ledChannel)
+{
+    u8 duty = 0;
+    switch(ledChannel)
+    {
+        case eBSP_LED_1: duty = ledPwm.led1Duty; break;
+        case eBSP_LED_2: duty = ledPwm.led2Duty; break;
+        case eBSP_LED_3: duty = ledPwm.led3Duty; break;
+        default: break;
+    }
+    return duty;
+}
 /*******************************************************************************
  * FUNCOES LOCAIS
  ******************************************************************************/
