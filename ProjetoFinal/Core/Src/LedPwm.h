@@ -33,6 +33,6 @@ void LedPwm_SetActiveLed(bspLed_t ledChannel);
 bspLed_t LedPwm_GetActiveLed(void);
 void LedPwm_UpdateActiveLedIntensity(u8 dutyPercent);
 void LedPwm_RefreshAll(void);
-
+u8 LedPwm_GetLedDuty(bspLed_t ledChannel);
 #endif /* LED_PWM_H */
 /** @} */
