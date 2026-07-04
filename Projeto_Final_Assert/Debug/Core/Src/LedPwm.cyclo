@@ -1,0 +1,6 @@
+../Core/Src/LedPwm.c:56:6:LedPwm_Init	1
+../Core/Src/LedPwm.c:75:6:LedPwm_SetActiveLed	2
+../Core/Src/LedPwm.c:87:10:LedPwm_GetActiveLed	1
+../Core/Src/LedPwm.c:98:6:LedPwm_UpdateActiveLedIntensity	5
+../Core/Src/LedPwm.c:127:6:LedPwm_RefreshAll	1
+../Core/Src/LedPwm.c:139:4:LedPwm_GetLedDuty	5

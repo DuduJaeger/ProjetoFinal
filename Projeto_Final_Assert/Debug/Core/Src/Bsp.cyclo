@@ -1,0 +1,14 @@
+../Core/Src/Bsp.c:74:6:Bsp_Init	1
+../Core/Src/Bsp.c:97:6:Bsp_SetLedPwm	5
+../Core/Src/Bsp.c:126:6:Bsp_GetSamplingFlag	1
+../Core/Src/Bsp.c:135:6:Bsp_ClearSamplingFlag	1
+../Core/Src/Bsp.c:144:5:Bsp_ReadAdc	2
+../Core/Src/Bsp.c:159:6:Bsp_TransmitUartString	1
+../Core/Src/Bsp.c:168:6:Bsp_GetButtonFlag	1
+../Core/Src/Bsp.c:177:6:Bsp_ClearButtonFlag	1
+../Core/Src/Bsp.c:186:6:Bsp_GetUartRxFlag	1
+../Core/Src/Bsp.c:195:6:Bsp_ClearUartRxFlag	1
+../Core/Src/Bsp.c:204:4:Bsp_GetUartRxData	1
+../Core/Src/Bsp.c:217:6:HAL_GPIO_EXTI_Callback	2
+../Core/Src/Bsp.c:229:6:HAL_TIM_PeriodElapsedCallback	4
+../Core/Src/Bsp.c:251:6:HAL_UART_RxCpltCallback	2

@@ -1,0 +1,5 @@
+../Core/Src/Sampler.c:62:6:Sampler_Init	1
+../Core/Src/Sampler.c:75:6:Sampler_ProcessNewSample	2
+../Core/Src/Sampler.c:104:4:Sampler_GetFilteredPercentage	1
+../Core/Src/Sampler.c:113:6:Sampler_IsNewAverageReady	1
+../Core/Src/Sampler.c:122:6:Sampler_ClearAverageFlag	1
